@@ -13,24 +13,39 @@ It’s designed to showcase clean architecture, practical productivity features,
 - **Version Control:** Git & GitHub  
 
 ---
+
+ ## 📂 Project Structure
+ redux-class/
+├── src/
+│   ├── features/todo/todoSlice.js
+│   ├── components/AddForm.jsx
+│   ├── components/TodoList.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+├── .gitignore
+├── README.md
+└── package.json
+
 ##  Setup Instructions
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/redux-class.git
+    ```bash
+   git clone https://github.com/diya200d/Ai-Powered-Todo-List.git
    cd redux-class
 2. Install dependencies:
-  bash
-  npm install
-3. Run the development server:
+     bash
+     npm install
+3. Create a .env file:
+    VITE_OPENROUTER_API_KEY=your_api_key_here
+4. Run the development server:
    npm run dev
-4. Open your browser at http://localhost:5173.
+5. Open your browser at http://localhost:5173.
 
 ##  Features
   Add, edit, and delete todos
   Mark tasks as complete/incomplete
   AI‑powered task suggestions
 
-  scalability
 
 ## 📸 Screenshots
 
